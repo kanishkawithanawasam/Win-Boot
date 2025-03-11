@@ -1,7 +1,7 @@
 package com.kgsolutions.winboot.models;
 
 
-import java.util.List;
+import javafx.collections.ObservableList;
 
 /**
  * This class acts as the main data model of the system
@@ -9,5 +9,7 @@ import java.util.List;
  * @version 1.0
  */
 public class Model {
+    private ObservableList<String> devices;
+
 
 }
