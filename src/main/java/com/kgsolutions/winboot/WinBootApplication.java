@@ -1,6 +1,5 @@
 package com.kgsolutions.winboot;
 
-import com.kgsolutions.winboot.viewcontrollers.HomeViewController;
 import com.kgsolutions.winboot.viewcontrollers.MainController;
 import javafx.application.Application;
 import javafx.stage.Stage;
