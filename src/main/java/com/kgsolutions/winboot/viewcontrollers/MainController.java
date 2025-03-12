@@ -24,6 +24,7 @@ public class MainController {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("home-view.fxml"));
         Parent root = fxmlLoader.load();
         HomeViewController homeViewController = fxmlLoader.getController();
+        homeViewController.initializeUsbListeningService();
         stage.setScene(new Scene(root));
         stage.show();
     }
