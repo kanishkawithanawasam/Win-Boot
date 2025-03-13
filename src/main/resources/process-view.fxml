@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.ProgressIndicator?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<?import javafx.scene.control.ProgressIndicator?>
+<AnchorPane fx:controller="com.kgsolutions.winboot.viewcontrollers.ProcessViewController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="236.0" prefWidth="554.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="2.0" prefHeight="72.0" prefWidth="536.0" text="Creating Windows Bootable Device">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <ProgressIndicator layoutX="165.0" layoutY="75.0" prefHeight="14.0" prefWidth="15.0" progress="0.0" radius="5.0" />
+      <ProgressIndicator layoutX="165.0" layoutY="124.0" progress="0.0" radius="5.0" />
+      <ProgressIndicator layoutX="165.0" layoutY="173.0" prefHeight="9.0" prefWidth="10.0" progress="0.0" radius="5.0" />
+      <Label layoutX="190.0" layoutY="75.0" prefHeight="18.0" prefWidth="273.0" text="Formating the removable device" />
+      <Label layoutX="190.0" layoutY="124.0" prefHeight="18.0" prefWidth="191.0" text="Copying files" />
+      <Label layoutX="190.0" layoutY="173.0" prefHeight="18.0" prefWidth="191.0" text="Completed" />
+   </children>
+</AnchorPane>
