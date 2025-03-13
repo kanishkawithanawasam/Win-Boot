@@ -24,13 +24,13 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <Button layoutX="323.0" layoutY="163.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="94.0" text="Select File" />
-      <Label layoutX="323.0" layoutY="200.0" prefHeight="26.0" prefWidth="218.0" text="No file Selected">
+      <Button onAction="#openFileSelectAction" layoutX="323.0" layoutY="163.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="94.0" text="Select File" />
+      <Label fx:id="isoFileLocationLabel" layoutX="323.0" layoutY="200.0" prefHeight="26.0" prefWidth="218.0" text="No file Selected">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
       <Button layoutX="203.0" layoutY="296.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="196.0" text="Create Bootable Device" />
-      <ComboBox fx:id="comboBox" layoutX="323.0" layoutY="114.0" prefHeight="26.0" prefWidth="218.0" promptText="Select USB device" />
+      <ComboBox fx:id="comboBox" onAction="#setSelectedDevice" layoutX="323.0" layoutY="114.0" prefHeight="26.0" prefWidth="218.0" promptText="Select USB device" />
    </children>
 </AnchorPane>
